@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FoodOrderinsystem.FoodOrder">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="9" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="f8e99">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="68a11" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="20" style="1"/>
+          <text value="Discounts"/>
+        </properties>
+      </component>
+      <component id="3cdca" class="javax.swing.JCheckBox" binding="cPizza">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Pizza"/>
+        </properties>
+      </component>
+      <component id="e817d" class="javax.swing.JCheckBox" binding="cBurger">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Burger"/>
+        </properties>
+      </component>
+      <component id="aba1d" class="javax.swing.JCheckBox" binding="cTea">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Tea"/>
+        </properties>
+      </component>
+      <component id="57dd6" class="javax.swing.JCheckBox" binding="cSundae">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Sundae"/>
+        </properties>
+      </component>
+      <component id="c45b1" class="javax.swing.JRadioButton" binding="rb5">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="5% Off"/>
+        </properties>
+      </component>
+      <component id="48c37" class="javax.swing.JRadioButton" binding="rb10">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <selected value="false"/>
+          <text value="10% off"/>
+        </properties>
+      </component>
+      <component id="4b562" class="javax.swing.JRadioButton" binding="rb15">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="15% off"/>
+        </properties>
+      </component>
+      <component id="e5b5" class="javax.swing.JCheckBox" binding="cFries">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Fries"/>
+        </properties>
+      </component>
+      <component id="1beeb" class="javax.swing.JCheckBox" binding="cSoftdrinks">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Softdrinks"/>
+        </properties>
+      </component>
+      <component id="f089a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Php 100"/>
+        </properties>
+      </component>
+      <component id="77e4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Php 80"/>
+        </properties>
+      </component>
+      <component id="14d73" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Php 65"/>
+        </properties>
+      </component>
+      <component id="8544e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Php 55"/>
+        </properties>
+      </component>
+      <component id="9c417" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Php 50"/>
+        </properties>
+      </component>
+      <component id="73ea2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="Php 40"/>
+        </properties>
+      </component>
+      <hspacer id="944cc">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="406de">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="f3e8">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="119f7">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="b4cb9">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="b6ea">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="21cf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="20" style="1"/>
+          <text value="Foods"/>
+        </properties>
+      </component>
+      <component id="ff747" class="javax.swing.JButton" binding="btnOrder">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Order"/>
+        </properties>
+      </component>
+      <hspacer id="26880">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8e1e4" class="javax.swing.JRadioButton" binding="rbNone">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value="None"/>
+        </properties>
+      </component>
+      <hspacer id="1ca7c">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="btndiscounts">
+      <member id="c45b1"/>
+      <member id="c45b1"/>
+      <member id="48c37"/>
+      <member id="4b562"/>
+      <member id="8e1e4"/>
+    </group>
+  </buttonGroups>
+</form>
